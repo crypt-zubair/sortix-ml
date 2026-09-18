@@ -1,0 +1,12 @@
+# SORTIX dataset config
+# Classes are LOCKED per project decision: Dry / Wet / Mixed / Sanitary
+path: C:/Users/Admin/Desktop/waste-detection-ml-v2/data
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: dry        # paper, plastic, recyclable packaging
+  1: wet        # food waste, organic leftovers
+  2: mixed      # contaminated / food-filled containers
+  3: sanitary   # napkins, pads, similar sanitary waste
